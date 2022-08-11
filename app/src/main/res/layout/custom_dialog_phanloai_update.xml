@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/dialog_background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sửa Tên Loại"
+        android:fontFamily="@font/font"
+        android:textSize="25sp"
+        android:background="@drawable/dialog_background_title"
+        android:gravity="center"
+        android:padding="10dp"
+        ></TextView>
+
+    <EditText
+        android:id="@+id/edt_themtenloaithu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên Loại thu"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:background="@drawable/dialog_background_edt"
+        ></EditText>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="right">
+        <Button
+            android:id="@+id/btn_huy"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Hủy"
+            android:alpha="0.6"
+            android:textSize="14sp"
+            android:background="@drawable/dialog_background_huy"
+            android:layout_marginRight="10dp"></Button>
+
+        <Button
+            android:id="@+id/btn_them"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:text="Sửa"
+            android:background="@drawable/dialog_background_ok"></Button>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
